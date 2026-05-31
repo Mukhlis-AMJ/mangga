@@ -36,7 +36,7 @@
                     <flux:link class="absolute top-0 text-sm end-0" :href="route('password.request')" wire:navigate>
                         {{ __('Forgot your password?') }}
                     </flux:link>
-                @endif
+        @endif
             </div>
 
             <!-- Remember Me -->

@@ -15,6 +15,7 @@ new class extends Component
         <flux:table.column>Date</flux:table.column>
         <flux:table.column>Status</flux:table.column>
         <flux:table.column>Amount</flux:table.column>
+        <flux:table.column>Genre</flux:table.column>
     </flux:table.columns>
 
     <flux:table.rows>
@@ -43,6 +44,13 @@ new class extends Component
             <flux:table.cell>Gustavo Geidt</flux:table.cell>
             <flux:table.cell>Jul 27, 9:30 AM</flux:table.cell>
             <flux:table.cell><flux:badge color="green" size="sm" inset="top bottom">Paid</flux:badge></flux:table.cell>
+            <flux:table.cell variant="strong">$31.00</flux:table.cell>
+        </flux:table.row>
+        
+        <flux:table.row>
+            <flux:table.cell>Robert Johnson</flux:table.cell>
+            <flux:table.cell>Mei 15, 7:35 AM</flux:table.cell>
+            <flux:table.cell><flux:badge color="yellow" size="sm" inset="top bottom">Done</flux:badge></flux:table.cell>
             <flux:table.cell variant="strong">$31.00</flux:table.cell>
         </flux:table.row>
     </flux:table.rows>
